@@ -12,3 +12,12 @@ body {
   background-color: var(--tertiary-color);
   font-family: "Karla", sans-serif;
 }
+
+main {
+  display: grid;
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 5%;
+  grid-template-columns: 1fr;
+  grid-template-rows: min-content min-content min-content;
+}
