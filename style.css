@@ -100,3 +100,20 @@ main {
 .sing-up:active {
   transform: scale(0.88);
 }
+.why-us-content {
+  padding: 20px;
+  background-color: var(--senary-color);
+  border-radius: 0px 0px 5px 5px;
+}
+.title-why-us {
+  color: var(--quinary-color);
+}
+.list {
+  color: var(--quinary-color);
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+li:hover {
+  color: var(--quaternary-color);
+}
