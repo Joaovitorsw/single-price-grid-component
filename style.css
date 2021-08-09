@@ -93,3 +93,10 @@ main {
   margin-bottom: 10px;
   transition: transform 0.2s ease-in-out;
 }
+.sing-up:hover {
+  transform: scale(1.03);
+  background-color: var(--secondary-color-dark);
+}
+.sing-up:active {
+  transform: scale(0.88);
+}
