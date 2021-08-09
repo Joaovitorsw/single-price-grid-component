@@ -52,3 +52,44 @@ main {
   line-height: 20px;
   margin-bottom: 15px;
 }
+.monthly-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-color);
+}
+.title-monthly {
+  color: var(--quinary-color);
+}
+.dolar {
+  display: flex;
+  color: var(--quinary-color);
+  align-items: center;
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.dolar span {
+  color: var(--quinary-color);
+  opacity: 0.7;
+  font-weight: 400;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.paragraph-monthly {
+  color: var(--quinary-color);
+  margin-bottom: 30px;
+}
+.sing-up {
+  background-color: var(--secondary-color);
+  color: var(--quinary-color);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 15px;
+  max-width: 300px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  transition: transform 0.2s ease-in-out;
+}
