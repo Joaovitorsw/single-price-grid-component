@@ -117,3 +117,33 @@ main {
 li:hover {
   color: var(--quaternary-color);
 }
+
+@media screen and (min-width: 650px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: min-content min-content min-content;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+
+  .monthly-content {
+    border-radius: 0px 0px 0px 5px;
+  }
+  .why-us-content {
+    border-radius: 0px 0px 5px 0px;
+  }
+  .text-content {
+    grid-column: 1/-1;
+  }
+
+  .sub-title-text {
+    max-width: unset;
+  }
+  .paragraph-text {
+    max-width: 500px;
+  }
+  .sing-up {
+    max-width: 250px;
+  }
+}
