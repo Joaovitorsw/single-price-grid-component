@@ -21,3 +21,34 @@ main {
   grid-template-columns: 1fr;
   grid-template-rows: min-content min-content min-content;
 }
+
+.text-content {
+  padding: 20px;
+  background-color: var(--quinary-color);
+  border-radius: 5px 5px 0px 0px;
+}
+
+.title-text,
+.title-monthly,
+.title-why-us {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.title-text {
+  color: var(--primary-color);
+}
+.sub-title-text {
+  color: var(--secondary-color);
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 15px;
+  max-width: 250px;
+}
+.paragraph-text {
+  color: var(--quaternary-color);
+  font-size: 14px;
+  max-width: 280px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
