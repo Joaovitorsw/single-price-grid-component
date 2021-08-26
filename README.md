@@ -79,16 +79,20 @@ Minha versão da aplicação proposta pelo [Frontend Mentor](https://www.fronten
 
 <div align="center">
 
-|  :page_facing_up:   |
-| :-----------------: |
-|    Mobile First     |
-|     Key concept     |
-|  Pseudo Selectors   |
-|    CSS Box Model    |
-|   Size Properties   |
-| Element visibility  |
-|       Flexbox       |
-|        Grid         |
+|  :page_facing_up:  |
+| :----------------: |
+|    Mobile First    |
+|     HTML Class     |
+|     CSS Class      |
+|      Position      |
+|  Pseudo Selectors  |
+|   CSS Box Model    |
+|  Size Properties   |
+|      Flexbox       |
+|     MediaQuery     |
+|    Atomic Comit    |
+
+
 
 
 </div>
